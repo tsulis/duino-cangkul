@@ -59,3 +59,7 @@ gabung code diatas kedalam code utama ESP cari method "Void UpdatePool()". hasil
       // Setup pool with new input
       UpdateHostPort(input);
     }
+    
+    
+   NOTE: <br>
+   ini akan switching otomatis, pilihan pertama akan pakai pool resmi, kalau ndak nemu baru pakai pool karbitan.
