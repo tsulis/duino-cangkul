@@ -10,11 +10,11 @@ step 3. <br>
 copy text yang muncul baru di browser, format JSON. (jangan pakai JSON dalam contoh ini)<br>
 contoh : {"ip":"51.159.175.20","name":"42-pool-2","port":6043,"server":"duino-master-1","success":true}
 
-step4. <br>
+step 4. <br>
 akses https://www.freeformatter.com/json-escape.html <br> kemudian paste-kan JSON data yang abang punya di browser kemudian pencet button 'escape'.
 
 step 5. <br>
-tambah kan code dan JSON data yang sudah di escape di step4 atas, <br>
+tambahkan code dan JSON data yang sudah di escape di step 4 atas, <br>
 
     //begin - tambahan code
     if (input=="" || input==NULL){
@@ -23,7 +23,7 @@ tambah kan code dan JSON data yang sudah di escape di step4 atas, <br>
     //end - tambahan code
 
 step 6. <br>
-gabung code diatas kedalam code utama ESP cari method "Void UpdatePool()". hasil akhir akan seperti ini. <br> JANGAN PAKAI POOL INI, PAKAI POOL YANG BARU KALIAN BUAT.
+gabung code diatas kedalam code utama ESP, cari method "void UpdatePool()". <br> hasil akhir akan seperti ini. <br><br> JANGAN PAKAI POOL INI, PAKAI POOL YANG BARU KALIAN BUAT.
 
 
     // Communication Functions
