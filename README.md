@@ -14,7 +14,7 @@ step4. <br>
 akses https://www.freeformatter.com/json-escape.html <br> kemudian paste-kan JSON data yang abang punya di browser kemudian pencet button 'escape'.
 
 step 5. <br>
-tambah kan code ini kedalam code miner esp, <br>
+tambah kan code dan JSON data yang sudah di escape kedalam code miner esp, <br>
 
     if (input=="" || input==NULL){
       input ="JSON_DATA_YANG_SUDAH_DI_ESCAPE_MASUKIN_SINI";
