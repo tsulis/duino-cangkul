@@ -1,4 +1,4 @@
-# duino-bypass-cangkul
+# duino bypass blocked pool
 
 step 1. <br>
 cari dan install VPN gatisan di laptop, PC atau HP (kalau mau).
