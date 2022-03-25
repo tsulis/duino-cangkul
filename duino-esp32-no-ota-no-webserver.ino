@@ -217,10 +217,6 @@ void UpdatePool() {
       poolIndex %= poolSize;
       delay(waitTime * 1000);
 
-    if (input=="" || input==NULL){
-      input ="{\"ip\":\"51.158.113.59\",\"name\":\"bila-pool-1\",\"port\":11519,\"server\":\"duino-rest-1\",\"success\":true}";
-    }
-
       // Increase wait time till a maximum of 32 seconds (addresses: Limit connection requests on failure in ESP boards #1041)
       waitTime *= 2;
       if ( waitTime > 32 )
